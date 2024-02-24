@@ -1,0 +1,400 @@
+.bg-container{
+    height:500vh;
+    width:100vw;
+}
+
+.Home-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    height: 96vh;
+}
+
+.facebook{
+    background-color:#fff;
+    height:22px;
+    margin-left: 8px;
+}
+
+.rotated-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-90deg); 
+    transform-origin: top left; 
+    width: 98vh; 
+    height:8vh;
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: #000000; 
+    
+    
+}
+
+.hr-line{
+    width: 20vh;
+    margin: 0px; 
+    color: #ffffff;
+    margin-right: 15px;
+    
+}
+
+.Home-heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    margin: 0;
+    font-size: 15px;
+}
+
+.Sidebar-container{
+    margin-left: 60px;
+}
+
+.sidebar-top-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.sidebar-heading{
+    font-family: Autography;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sidebar-img{
+    margin-right: 45px;
+}
+
+.sidebar-bottom-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-bottom-left-heading{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sidebar-bottom-left-paragraph-1{
+    width:26vw;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sidebar-bottom-left-paragraph-2{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.headphone-img{
+    height:60vh;
+    margin-left: 160px;
+}
+
+.Features-container{
+    margin-top: 55px;
+    margin-left: 45px;
+}
+
+.Features-section-paragraph{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Features-top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.Features-heading{
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Features-button{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    border:2px solid #333333;
+    padding: 10px;
+}
+
+.Features-specification-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.specification-heading{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.specification-paragraph{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width:30vw;
+    color:#333333;
+
+}
+
+.learn-more-section{
+    display: flex;
+    align-items: center;
+}
+
+.learn-more-paragraph{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Solo-beat-specification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #333333;
+    height:120vh;
+}
+
+.Solo-beat-specification-paragraph{
+    color: #A1A0A1;
+    font-size:16px ;
+    margin-top: 90px;
+}
+
+.Solo-beat-specification-heading{
+    color: #ffffff;
+    font-size:35px ;
+}
+
+.Solo-headphone-specification{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90vw;
+}
+
+.headphone-img-2{
+    height:40vh;
+}
+
+.Solo-headphone-detail{
+    color:#F4F4F4;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.color{
+    border-radius: 50%;
+    background-color:#A53C43;
+    padding: 5px;
+    font-size: 0px;
+    align-self: center;
+}
+
+.Discount-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Discount-container-heading{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Discount-container-paragraph{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    width:55vw;
+}
+
+.Discount-container-button{
+    background-color: #000000;
+    padding: 15px;
+    color:#ffffff;
+    font-family: "Roboto";
+    width:10vw;
+    border:none;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.Contact-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #333333;
+    height:140vh;
+}
+
+.contact-details-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50vh;
+}
+
+.contact-details-top-section{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: flex-start;
+    width:80vw;
+}
+
+.name-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.contact-heading{
+    color:#A1A0A1;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.hr-2{
+    color:#A1A0A1;
+    width:25vw;
+}
+
+
+.hr-3{
+    color:#A1A0A1;
+    width:54vw;
+    margin: 0; 
+    padding: 0; 
+    border: 1; 
+}
+
+.contact-submit-button{
+    background-color: transparent;
+    border:1px solid #ffffff;
+    color:#ffffff;
+    width:10vw;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.contact-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80vw;
+    margin-top: 50px;
+}
+
+.Footer-heading{
+    font-family: Autography;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.Footer-heading-1{
+    font-size: 24px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.Footer-heading-2{
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.Footer-paragraph{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.Footer-paragraph-2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.footer-logo-container{
+    display: flex;
+}
